@@ -1,0 +1,155 @@
+/* #mainTitle{
+    color:rgb(197, 52, 52);
+    font-size: larger;
+    margin:10px;
+    padding: 20px 40px;
+    background-color: rgb(255, 209, 209);
+    position:absolute;
+    right: 0;
+} */
+
+/* #mainTitle:hover{
+    color: blue;
+} */
+
+.card1{
+    width: 200px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.card1 h3{
+    color: coral;
+    font-size: 30pt;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card1 img{
+    width: 100%;
+}
+
+.card2{
+    right: 0;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.card2 h3{
+    color: coral;
+    font-size: 30pt;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card2 img{
+    width: 100%;
+}
+
+.card3{
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.card3 h3{
+    color: coral;
+    font-size: 30pt;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card3 img{
+    width: 100%;
+}
+
+.card4{
+    bottom: 0;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.card4 h3{
+    color: coral;
+    font-size: 30pt;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card4 img{
+    width: 100%;
+}
+
+#ele1{
+    right: 200px;
+    width: 200px;
+
+}
+
+#ele2{
+    left:200px;
+    width: 300px;
+}
+
+
+#ele3{
+    right: 100px;
+    width: 400px;
+    mix-blend-mode:exclusion;
+    /* animation-name: MyAnimation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate; */
+    animation: rotationAni 3s infinite;
+}
+
+@keyframes rotationAni{
+    0%{transform:rotate(0)}
+    100%{transform:rotate(360deg)}
+}
+   
+#ele4{
+    width: 500px;
+}
+
+#ele5{
+    width: 300px;
+}
+
+#ele6{
+    position: absolute;
+    left: 300px;;
+    mix-blend-mode:multiply;
+    z-index: 20;
+    transition: 1s;
+}
+
+#ele6:hover{
+    transform: rotate(180deg);
+}
+
+#ani1:hover #round{
+    filter: hue-rotate(34deg);
+}
+
+#round{
+    transition: 0.5s;
+}
+
+#video1{
+    position: absolute;
+    right: 100px;
+    mix-blend-mode: multiply;
+}

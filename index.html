@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
+        integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card1">
+        <h3>Goddness</h3>
+        <img src="19.png" alt="">
+    </div>
+
+    <div class="card2">
+        <h3>Goddness</h3>
+        <img src="19.png" alt="">
+    </div>
+
+    <div class="card3">
+        <h3>Goddness</h3>
+        <img src="19.png" alt="">
+    </div>
+
+    <div class="card4">
+        <h3>Goddness</h3>
+        <img src="19.png" alt="">
+    </div>
+
+    <!-- <h1 id="mainTitle">Hello</h1> -->
+    
+
+    <div class="box">
+        <img id="ele1" src="19.png" alt="">
+        <img id="ele2" src="19.png" alt="">
+        <img id="ele3" src="19.png" alt="">
+        <img id="ele4" src="19.png" alt="">
+        <img id="ele5" src="19.png" alt="">
+        <img id="ele6" src="19.png" alt="">
+    </div>
+
+    <div id="ani1"></div>
+
+    <script>        
+        
+
+        let ani  = lottie.loadAnimation({
+            container: document.querySelector('#ani1'), // HTML元素
+    
+            loop: true,
+            autoplay: true,            
+            path: './data.json', // 写自己动画文件的路径
+        }) 
+    </script>
+
+    <video controls autoplay  loop id="video1"  >
+        <source type="video/mp4" src="./Motion2.mp4"" type="">
+    </video>
+    <video id="video2" src="./Motion2.mp4" autoplay loop></video>
+    
+</body>
+
+</html>
